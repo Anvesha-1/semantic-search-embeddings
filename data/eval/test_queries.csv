@@ -1,0 +1,41 @@
+query_id,query,expected_category,type
+1,peace talks in the Middle East,World,direct
+2,earthquake death toll rises,World,direct
+3,Iraq election,World,direct
+4,United Nations Security Council vote,World,direct
+5,Iran nuclear programme,World,direct
+6,two nations sign a deal to end fighting,World,paraphrase
+7,families flee their homes after a natural disaster,World,paraphrase
+8,head of state travels abroad for meetings,World,paraphrase
+9,crowds march against the ruling party,World,paraphrase
+10,soldiers sent to a conflict zone,World,paraphrase
+11,Olympic gold medal,Sports,direct
+12,Red Sox win the World Series,Sports,direct
+13,football coach fired,Sports,direct
+14,tennis grand slam final,Sports,direct
+15,NBA basketball game,Sports,direct
+16,team lifts the trophy after a long wait,Sports,paraphrase
+17,athlete fails a drug test,Sports,paraphrase
+18,player agrees a new deal with his club,Sports,paraphrase
+19,injured star will miss the rest of the season,Sports,paraphrase
+20,runner breaks the world record,Sports,paraphrase
+21,oil prices rise,Business,direct
+22,stock market falls,Business,direct
+23,company quarterly profit,Business,direct
+24,merger and acquisition deal,Business,direct
+25,Federal Reserve raises interest rates,Business,direct
+26,cost of fuel goes up,Business,paraphrase
+27,firm buys a rival for billions,Business,paraphrase
+28,workers lose their jobs as factory closes,Business,paraphrase
+29,central bank changes borrowing costs,Business,paraphrase
+30,shoppers spend less during the holidays,Business,paraphrase
+31,new Microsoft Windows update,Sci/Tech,direct
+32,NASA space shuttle launch,Sci/Tech,direct
+33,computer virus spreads,Sci/Tech,direct
+34,Google search engine,Sci/Tech,direct
+35,mobile phone sales,Sci/Tech,direct
+36,hackers attack computers with malicious software,Sci/Tech,paraphrase
+37,scientists discover a planet around another star,Sci/Tech,paraphrase
+38,new gadget for listening to music,Sci/Tech,paraphrase
+39,company releases a faster chip for laptops,Sci/Tech,paraphrase
+40,robot explorer sends images from the red planet,Sci/Tech,paraphrase
