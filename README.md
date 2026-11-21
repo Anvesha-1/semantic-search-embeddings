@@ -6,7 +6,7 @@ using sentence embeddings instead of keyword matching.
 ## Team
 | Member | Part |
 |---|---|
-| <Anvesha> | Data preparation, data analysis, test queries, keyword search baseline, final testing |
+| Anvesha | Data preparation, data analysis, test queries, keyword search baseline, final testing |
 | <Name 2> | Embedding generation, model comparison, embedding visualization |
 | <Name 3> | Semantic search engine (FAISS) and evaluation |
 | <Name 4> | Streamlit web app, README, final report and slides |
