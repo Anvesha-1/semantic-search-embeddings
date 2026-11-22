@@ -7,7 +7,7 @@ using sentence embeddings instead of keyword matching.
 | Member | Part |
 |---|---|
 | Anvesha | Data preparation, data analysis, test queries, keyword search baseline, final testing |
-| <Name 2> | Embedding generation, model comparison, embedding visualization |
+| Mahima | Embedding generation, model comparison, embedding visualization |
 | <Name 3> | Semantic search engine (FAISS) and evaluation |
 | <Name 4> | Streamlit web app, README, final report and slides |
 
@@ -40,7 +40,10 @@ using sentence embeddings instead of keyword matching.
 - Demo: python src/keyword_search.py
 
 ## Embeddings (Member 2)
-TODO (FILL YOURSELF)
+- Model: all-MiniLM-L6-v2 (sentence-transformers), 384-dimensional vectors, normalized so cosine similarity = inner product.
+- src/embedder.py: embed_texts(texts) returns a float32 array of shape (n, 384). Always use this function to embed queries.
+- Create corpus embeddings: python src/embed_corpus.py -> data/processed/corpus_embeddings.npy, shape (5000, 384). Row i matches doc_id i in corpus.csv.
+- Meaning check: python src/test_embedder.py. "cost of fuel goes up" vs "oil prices rise" scores 0.504, versus 0.022 for "football coach fired".
 
 ## Search and Evaluation (Member 3)
 TODO (FILL YOURSELF)
