@@ -44,6 +44,8 @@ using sentence embeddings instead of keyword matching.
 - src/embedder.py: embed_texts(texts) returns a float32 array of shape (n, 384). Always use this function to embed queries.
 - Create corpus embeddings: python src/embed_corpus.py -> data/processed/corpus_embeddings.npy, shape (5000, 384). Row i matches doc_id i in corpus.csv.
 - Meaning check: python src/test_embedder.py. "cost of fuel goes up" vs "oil prices rise" scores 0.504, versus 0.022 for "football coach fired".
+- Model comparison: python src/compare_models.py. all-MiniLM-L6-v2 scores 93.5% Precision@5 vs 91.5% for all-mpnet-base-v2, and is about 5.6 times faster. Results   in results/model_comparison.csv.
+- 2D plot: python src/visualize_embeddings.py -> results/figures/embeddings_2d.png
 
 ## Search and Evaluation (Member 3)
 TODO (FILL YOURSELF)
