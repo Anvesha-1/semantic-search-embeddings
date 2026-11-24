@@ -8,7 +8,7 @@ using sentence embeddings instead of keyword matching.
 |---|---|
 | Anvesha | Data preparation, data analysis, test queries, keyword search baseline, final testing |
 | Mahima | Embedding generation, model comparison, embedding visualization |
-| <Name 3> | Semantic search engine (FAISS) and evaluation |
+| Harsh | Semantic search engine (FAISS) and evaluation |
 | <Name 4> | Streamlit web app, README, final report and slides |
 
 ## Setup
@@ -48,7 +48,8 @@ using sentence embeddings instead of keyword matching.
 - 2D plot: python src/visualize_embeddings.py -> results/figures/embeddings_2d.png
 
 ## Search and Evaluation (Member 3)
-TODO (FILL YOURSELF)
-
+- src/search.py: SemanticSearcher().search(query, top_k=5) uses FAISS (IndexFlatIP, exact inner-product search on normalized embeddings). Returns a list of dicts     with doc_id, text, category and score, the same format as KeywordSearcher.
+- Evaluate: python src/evaluate.py runs the 40 test queries on both searches -> results/evaluation_summary.csv and results/evaluation_per_query.csv.
+- Result: Precision@5 is 93.5% for semantic search vs 84.0% for keyword search. On paraphrase queries it is 92.0% vs 72.0%. On direct queries the two are about       equal (95.0% vs 96.0%).
 ## Web App (Member 4)
 TODO (FILL YOURSELF)
