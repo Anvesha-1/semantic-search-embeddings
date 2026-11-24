@@ -9,7 +9,7 @@ using sentence embeddings instead of keyword matching.
 | Anvesha | Data preparation, data analysis, test queries, keyword search baseline, final testing |
 | Mahima | Embedding generation, model comparison, embedding visualization |
 | Harsh | Semantic search engine (FAISS) and evaluation |
-| <Name 4> | Streamlit web app, README, final report and slides |
+| Mansi | Streamlit web app, README, final report and slides |
 
 ## Setup
     python -m venv venv
@@ -52,4 +52,9 @@ using sentence embeddings instead of keyword matching.
 - Evaluate: python src/evaluate.py runs the 40 test queries on both searches -> results/evaluation_summary.csv and results/evaluation_per_query.csv.
 - Result: Precision@5 is 93.5% for semantic search vs 84.0% for keyword search. On paraphrase queries it is 92.0% vs 72.0%. On direct queries the two are about       equal (95.0% vs 96.0%).
 ## Web App (Member 4)
-TODO (FILL YOURSELF)
+- app.py: Streamlit web app for searching the news articles.
+- Start it from the project folder: streamlit run app.py  (opens in the browser at http://localhost:8501)
+- Sidebar: choose Semantic Search or Keyword Search, and set the number of results (1-20).
+- Type a query and click "Search Articles" to see each result's category and similarity score.
+- Tip: try a paraphrase such as "cost of fuel goes up" in both modes to see the difference.
+- The first semantic search takes a few seconds while the embedding model loads; later searches are fast.
