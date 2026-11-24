@@ -1,0 +1,8 @@
+,Semantic search,Keyword search
+Overall,93.5,84.0
+direct,95.0,96.0
+paraphrase,92.0,72.0
+Business,90.0,78.0
+Sci/Tech,94.0,90.0
+Sports,94.0,80.0
+World,96.0,88.0
