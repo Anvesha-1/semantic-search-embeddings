@@ -1,0 +1,41 @@
+query_id,query,type,expected,semantic,keyword
+1,peace talks in the Middle East,direct,World,1.0,0.8
+2,earthquake death toll rises,direct,World,1.0,1.0
+3,Iraq election,direct,World,1.0,1.0
+4,United Nations Security Council vote,direct,World,1.0,1.0
+5,Iran nuclear programme,direct,World,1.0,1.0
+6,two nations sign a deal to end fighting,paraphrase,World,1.0,0.8
+7,families flee their homes after a natural disaster,paraphrase,World,1.0,0.6
+8,head of state travels abroad for meetings,paraphrase,World,0.8,1.0
+9,crowds march against the ruling party,paraphrase,World,0.8,1.0
+10,soldiers sent to a conflict zone,paraphrase,World,1.0,0.6
+11,Olympic gold medal,direct,Sports,0.8,1.0
+12,Red Sox win the World Series,direct,Sports,1.0,1.0
+13,football coach fired,direct,Sports,1.0,1.0
+14,tennis grand slam final,direct,Sports,1.0,1.0
+15,NBA basketball game,direct,Sports,1.0,1.0
+16,team lifts the trophy after a long wait,paraphrase,Sports,1.0,1.0
+17,athlete fails a drug test,paraphrase,Sports,1.0,0.2
+18,player agrees a new deal with his club,paraphrase,Sports,0.8,0.4
+19,injured star will miss the rest of the season,paraphrase,Sports,1.0,1.0
+20,runner breaks the world record,paraphrase,Sports,0.8,0.4
+21,oil prices rise,direct,Business,1.0,1.0
+22,stock market falls,direct,Business,1.0,1.0
+23,company quarterly profit,direct,Business,0.8,1.0
+24,merger and acquisition deal,direct,Business,0.6,0.6
+25,Federal Reserve raises interest rates,direct,Business,1.0,1.0
+26,cost of fuel goes up,paraphrase,Business,1.0,0.2
+27,firm buys a rival for billions,paraphrase,Business,0.8,1.0
+28,workers lose their jobs as factory closes,paraphrase,Business,1.0,0.4
+29,central bank changes borrowing costs,paraphrase,Business,1.0,0.8
+30,shoppers spend less during the holidays,paraphrase,Business,0.8,0.8
+31,new Microsoft Windows update,direct,Sci/Tech,1.0,1.0
+32,NASA space shuttle launch,direct,Sci/Tech,1.0,1.0
+33,computer virus spreads,direct,Sci/Tech,1.0,1.0
+34,Google search engine,direct,Sci/Tech,1.0,1.0
+35,mobile phone sales,direct,Sci/Tech,0.8,0.8
+36,hackers attack computers with malicious software,paraphrase,Sci/Tech,1.0,1.0
+37,scientists discover a planet around another star,paraphrase,Sci/Tech,1.0,1.0
+38,new gadget for listening to music,paraphrase,Sci/Tech,0.6,0.4
+39,company releases a faster chip for laptops,paraphrase,Sci/Tech,1.0,0.8
+40,robot explorer sends images from the red planet,paraphrase,Sci/Tech,1.0,1.0
