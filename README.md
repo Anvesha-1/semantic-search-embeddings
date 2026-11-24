@@ -58,3 +58,6 @@ using sentence embeddings instead of keyword matching.
 - Type a query and click "Search Articles" to see each result's category and similarity score.
 - Tip: try a paraphrase such as "cost of fuel goes up" in both modes to see the difference.
 - The first semantic search takes a few seconds while the embedding model loads; later searches are fast.
+
+## Report
+- Full project report: docs/report.md (chapters 1-4 are also in docs/report/)
